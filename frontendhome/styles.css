@@ -1,0 +1,24 @@
+body{
+    width:100vw;height:100vh;background-color:black;display:flex;justify-content:center;align-items:center;
+}
+#form{
+    background-color:white;border-radius:2.9%;border:transparent 5%;padding:7%;padding-top:1%;padding-bottom:8.4%;-webkit-transition:all 0.2s ease-in-out;
+}
+#errorname.show{
+    font-size:smaller;text-align:left;color:red;height:auto;margin-bottom:7%;font-weight:bolder;
+}
+#errorfeedback.show{
+    font-size:smaller;text-align:left;color:red;height:auto;margin-bottom:8.8%;font-weight:bolder;
+}
+#form:hover{
+    transform:scale(1.02);box-shadow:grey 4px 4px 5px;
+}
+input:active{
+    transform:scale(1.02);-webkit-transition:transform 0.2s ease-in-out;
+}
+button:hover{
+    transform:scale(1.03) translateY(-3%);-webkit-transition:all 0.18s ease-out;box-shadow:rgba(0, 0, 0, 0.534) 3px 3.7px 2.5px;cursor:pointer;
+}
+button:active{
+    transform:scale(0.96);-webkit-transition:transform 0.15s ease-in-out;
+}

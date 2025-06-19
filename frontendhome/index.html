@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <title>FeedBack Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="height=device-height, width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=5.0, minimum-scale=0.25">
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <div id="form">
+            <h2 style="text-align:center;cursor:default"><u>Feedback</u></h2>
+            <form method="post" action="/responses">
+                <label for="name" style="font-weight:bold;font-size:20px;padding-bottom:10px;">
+                    Name: <input type="text" placeholder="Name" name="nameInput" id="name" style="padding:2%;border-radius:20px;width:90%;border:2px solid black;">
+                </label><div id="errorname"></div><br>
+                <label for="message" style="font-weight:bold;font-size:20px;padding-bottom:10px;">
+                    Feedback: <input  type="text" placeholder="Give your feedback here" name="feedbackInput" id="message" style="padding:2%;border-radius:20px;width:90%;border:2px solid black;">
+                </label><div id="errorfeedback"></div><br>
+                <div style="text-align:center"><button type="submit" style="padding:8px;border-radius:10px;background-color:black;color:white;border:2px solid black;box-shadow:rgba(0, 0, 0, 0.534) 2.4px 3.0px 2px" id="submitbtn">Submit</button></div>
+            </form>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
